@@ -15,6 +15,8 @@ window.addEventListener("load",toggleStatus);
 // Klick auf Btn  --> Zustand umschalten
 btn.addEventListener("click",toggleStatus);
 
+/********  Business-Logic | Toggle **********/
+
 function toggleStatus() {
     status = !status;
     updateView();
